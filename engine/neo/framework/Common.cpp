@@ -2816,7 +2816,7 @@ void idCommonLocal::Init( int argc, const char **argv, const char *cmdline ) {
 		Printf( "%s\n", version.string );
 
 		// jkrige - uqe print
-		Printf( "Ultimate Quake Engine - Jacques Krige\n");
+		Printf( "Ultimate Quake Engine (www.corvinstein.com) - Jacques Krige\n" );
 
 		// initialize key input/binding, done early so bind command exists
 		idKeyInput::Init();
